@@ -72,7 +72,7 @@ Many of the functions are blended from the internet and brought together to make
 
 * **date_number_to_date:** Convert number format of date to normal date format.
 
-* **float_to_integer:** if input decimal is 0, returns integer. Otherwise returns float.
+* **float_to_integer:** If input decimal is 0, returns integer. Otherwise returns float.
 
 <hr>
 
