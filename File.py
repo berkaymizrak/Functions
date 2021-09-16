@@ -210,7 +210,7 @@ File.save_records_list(txt_file=txt_file, records_list=[last_id], overwrite=True
 # USAGE for saving last location of automation app --------------------
 
 def read_records_to_list(txt_file, file_not_found_error=False, exit_all=True):
-    records = list()
+    records = []
     message = ''
     error_text = ''
     error_def = False
