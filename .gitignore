@@ -103,12 +103,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 *.env
-env.txt
-.env.txt
 .venv
-Functions/*.env
 env/
 venv/
 ENV/
@@ -143,7 +139,7 @@ dmypy.json
 .idea/
 
 Notes.py
-
+Notes.txt
 
 media/
 
