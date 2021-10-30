@@ -580,7 +580,7 @@ def get_proxy_orbit(selenium=True, get_random=True, count_loop=1, save_false_pro
     again = True
     curl = ''
     while again:
-        url_proxy = "https://api.proxyorbit.com/v1/?token=%s" % API_KEY
+        url_proxy = "http://api.proxyorbit.com/v1/?token=%s" % API_KEY
         url_proxy += '&ssl=%s' % str(for_https).lower()
         url_proxy += '&protocols=http'
         url_proxy += '&count=%s' % number_of_save_proxies
